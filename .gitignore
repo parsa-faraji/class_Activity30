@@ -1,0 +1,99 @@
+# General macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Xcode
+# Do not ignore project.pbxproj and shared schemes
+*.xcworkspace
+!*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/*
+
+# User-specific settings
+*.xcuserstate
+*.xcuserdata/
+
+# Derived data
+DerivedData/
+
+# Indexing
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Build products
+build/
+*.o
+*.LinkFileList
+*.hmap
+
+# Code signing
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Static Libraries
+*.a
+*.bin
+
+# Archives
+*.xcarchive
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+*.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/tools_report.json
+
+# Xcode Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# AppCode
+.idea/
+*.iml
+
+# macOS-specific
+*.DS_Store
+
+# Vim Swap Files
+*.swp
+*.swo
